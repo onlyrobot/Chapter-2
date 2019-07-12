@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:background="@color/colorBackground">
+    android:background="@color/colorBackground">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -22,9 +22,10 @@
             android:textSize="18sp" />
     </RelativeLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_list"
+    <ListView
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/im_list_item" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/im_list_item"/>
+
 </LinearLayout>

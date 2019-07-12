@@ -2,4 +2,6 @@
     <string name="app_name">homework_new</string>
 
     <string name="chat_room_title">我和%1$s的对话</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_extra">Extra</string>
 </resources>
